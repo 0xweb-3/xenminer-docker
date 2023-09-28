@@ -1,0 +1,7 @@
+version: '3'
+services:
+  xenminer:
+    build:
+      context: .
+      dockerfile: Dockerfile  # 这里是你的Dockerfile的文件名
+    restart: always
